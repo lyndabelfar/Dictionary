@@ -1,0 +1,111 @@
+body{
+    font-family:'Be Vietnam Pro', sans-serif;
+    overflow-x: hidden;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    flex-direction: column;
+    width: 100% ;
+}
+.input{
+    border: gray 0.5px solid;
+    width: 50%;
+    font-size: 2rem;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+#sub{
+    background: none;
+    border: none;
+    position: relative;
+    left: -50px;
+    cursor: pointer;
+}
+.fa-search{
+    font-size: 2rem;
+    color: rgb(87, 87, 87);
+    
+}
+.input-div{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    opacity: 0;
+    margin-top: 50px;
+}
+.main-content.active{
+    opacity: 1;
+}
+.word{
+    font-size: 2.5rem;
+    text-align: center;
+    width: 100%;
+}
+.definition{
+    font-size: 1.5rem;
+    background:  rgba(80, 189, 199, 0.6);
+    border: rgba(80, 189, 199, 0.6) solid 0.2px;
+    border-radius: 20px;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+
+}
+.fa-volume-up{
+    font-size: 2.5rem;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+.audio-btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+.phonetic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 60px;
+}
+.example{
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 30px;
+}
+.part-of-speech, .origin{
+    padding: 30px;
+}
+select {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 50%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+    outline: none;
+
+}
+select::-ms-expand {
+  display: none;
+}
+

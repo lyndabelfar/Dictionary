@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dico</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9bc480b551.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Dictionary</h1>
+        
+        <label for="languages-selected">Select a Language: </label>
+        <select name="langauges" id="languages-selected">
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutch</option>
+            <option value="ru">русский</option>
+            <option value="es">Español</option>
+            <option value="it">Italiano</option>
+        </select>
+        <div class="input-div">
+            <input type="text" class="input" placeholder="Search for a word...">
+            <button type="submit" id="sub" ><i class="fas fa-search"></i></button>
+        </div>
+        <div class="main-content">
+            <div class="word"></div>
+            <div class="definition"></div>
+            <div class="example"></div>
+            <div class="part-of-speech"></div>
+            <div class="origin"></div>
+            <div class="phonetic">
+                <div class="text"></div>
+                <button class="audio-btn"><i class="fas fa-volume-up"></i>
+                    <audio class="audio"></audio>
+                </button>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+
+</body> 
+</html>
